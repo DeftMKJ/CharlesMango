@@ -24,7 +24,7 @@
 
 
 
-### 5. objc\_class结构
+### 5. objc\_class结构（具体的看Runtime篇幅）
 
 `class,meta-class`对象的本质结构都是`struct objc_class`
 
