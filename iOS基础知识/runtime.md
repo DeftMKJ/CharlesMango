@@ -12,7 +12,7 @@
 * 在arm64架构之前，isa就是一个普通的指针，存储着Class、Meta-Class对象的内存地址
 * 从arm64架构开始，对isa进行了优化，变成了一个共用体（union）结构，还使用位域来存储更多的信息
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 nonpointer
 
@@ -68,11 +68,11 @@ has\_sidetable\_rc
 
 `method_t`是对方法\函数的封装
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 `IMP`代表函数的具体实现
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 SEL代表方法\函数名，一般叫做选择器，底层结构跟char \*类似
 
